@@ -22,9 +22,3 @@ int main()
     printf("the absdiff is %d.\n",absdiff);
     return 0;
 }
-    printf("The sum of Even numbers is %d.\n", sumEven);
-    printf("The sum of Odd numbers is %d.\n", sumOdd);
-    printf("The absolute difference is %d.\n", absDiff);
-
-    return 0;
-}
