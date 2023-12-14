@@ -1,0 +1,27 @@
+clc
+clear 
+clear all
+n= input('Enter the number of equations');
+m=input('Enter the number of unknown');
+disp('Enter the elements of the matrix')
+for i= 1:n
+for j= 1:n
+A(i,j)= input('');
+end 
+end
+disp('Enter the constant matrix')
+for i= 1:n
+c(i)= input('');
+end
+B==c'
+if n~=m
+disp('The number of equations are not equal to number of unknown hence it is not possible to find the solution using matrix inversion method')
+else if B==0
+dip('This is a homogeneous system of equations')
+disp('It has trival solution or infinitely many other solutions')
+else if det(A)==0
+disp('It is not possible to find the solution by matrix inversion method')
+else
+disp('The solution is')
+x=inv(A)*B
+end
