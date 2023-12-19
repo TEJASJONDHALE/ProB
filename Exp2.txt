@@ -25,3 +25,5 @@ else
 disp('The solution is')
 x=inv(A)*B
 end
+end
+end
